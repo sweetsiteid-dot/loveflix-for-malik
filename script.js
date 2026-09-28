@@ -1,5 +1,6 @@
 // =========================
-// LOVEFLIX BIRTHDAY SPECIAL
+// LOVEFLIX | 91 DAYS SPECIAL
+// JUBI ❤️ MALIK
 // =========================
 
 // =========================
@@ -124,7 +125,6 @@ function enterLoveflix() {
 
         music.play().catch(() => {
             // Browser may block autoplay.
-            // Music will start after user interaction.
         });
 
     }
@@ -193,12 +193,12 @@ function updateAchievementUI() {
 
         letter: {
             id: "ach2",
-            text: "✅ Read The Birthday Letter"
+            text: "✅ Read My Letter"
         },
 
         quiz: {
             id: "ach3",
-            text: "✅ Quiz Master"
+            text: "✅ Love Quiz Master"
         },
 
         memory: {
@@ -213,7 +213,7 @@ function updateAchievementUI() {
 
         secret: {
             id: "ach6",
-            text: "✅ Birthday Surprise"
+            text: "✅ 91 Days Surprise"
         }
 
     };
@@ -317,7 +317,7 @@ function updateProgress() {
     ) {
 
         seasonBadge.innerHTML =
-            "🏆 Birthday Special Completed ❤️";
+            "🏆 91 Days With You Completed ❤️";
 
         setTimeout(() => {
 
@@ -359,7 +359,7 @@ window.addEventListener("scroll", () => {
 
         unlockAchievement(
             "letter",
-            "💌 Birthday Letter Read"
+            "💌 My Letter Has Been Read"
         );
 
     }
@@ -410,7 +410,7 @@ function collectHeart(element) {
             unlockBtn.classList.add("active");
 
             unlockBtn.innerHTML =
-                "Unlock Birthday Surprise 🎁";
+                "Unlock Our Surprise 🎁";
 
         }
 
@@ -465,7 +465,7 @@ document.addEventListener(
 
                 unlockAchievement(
                     "secret",
-                    "🎁 Birthday Surprise"
+                    "🎁 Our Secret Episode"
                 );
 
                 createConfetti();
@@ -506,7 +506,7 @@ function correctAnswer() {
 
 
     result.innerHTML =
-        "Correct! Today is all about you 🎂❤️";
+        "Correct! Malik is the one I love ❤️";
 
     result.style.color =
         "#4ade80";
@@ -514,7 +514,7 @@ function correctAnswer() {
 
     unlockAchievement(
         "quiz",
-        "❓ Birthday Boy Quiz Master"
+        "❤️ Love Quiz Master"
     );
 
     createConfetti();
@@ -533,7 +533,7 @@ function wrongAnswer() {
 
 
     result.innerHTML =
-        "Nope 😭 Try again!";
+        "Nope 😭 Try again, sayang!";
 
     result.style.color =
         "#ff4d4d";
@@ -556,14 +556,14 @@ function createConfetti() {
 
 
     const icons = [
-        "🎂",
-        "🎁",
-        "😻",
         "❤️",
-        "🎉",
+        "🤍",
+        "🫶",
+        "💍",
         "✨",
-        "🎊",
-        "💖"
+        "💖",
+        "🥰",
+        "🎉"
     ];
 
 
@@ -632,7 +632,8 @@ function renewSeason() {
 
 
     renewMessage.innerHTML =
-        "Next Birthday Chapter Coming Soon... 🎂❤️";
+        "More chapters with you are waiting... 🤍<br><br>" +
+        "91 days down, forever to go. ❤️";
 
     createConfetti();
 
@@ -688,8 +689,7 @@ const memoryCards =
     );
 
 
-// Total pairs is automatically
-// calculated from unique data-card values.
+// Total pairs
 
 const memoryTypes =
     new Set(
@@ -818,7 +818,7 @@ function disableCards() {
         if (memoryResult) {
 
             memoryResult.innerHTML =
-                "🎂🎁😻 Birthday Memory Master Unlocked! ❤️";
+                "❤️ Memory Match Completed!";
 
         }
 
@@ -1032,7 +1032,7 @@ document.addEventListener(
 
 
 // =========================
-// AUTO BIRTHDAY BADGE
+// AUTO LOVE BADGE
 // =========================
 
 setInterval(() => {
@@ -1050,7 +1050,7 @@ setInterval(() => {
         if (badge) {
 
             badge.innerHTML =
-                "🏆 Birthday Special Completed ❤️";
+                "🏆 91 Days With You Completed ❤️";
 
         }
 
@@ -1148,6 +1148,6 @@ document.addEventListener(
 
 // =========================
 // END
-// LOVEFLIX BIRTHDAY SPECIAL
-// KIAA ❤️ ZAHRAN
+// LOVEFLIX | 91 DAYS
+// JUBI ❤️ MALIK
 // =========================

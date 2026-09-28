@@ -6,7 +6,7 @@
 // CONFIG
 // =========================
 
-const CORRECT_PIN = "1709";
+const CORRECT_PIN = "0639";
 
 let heartsCollected = 0;
 const totalHearts = 5;
